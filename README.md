@@ -1,8 +1,12 @@
 # README
 beneficio fiscal utilizando a energia como moeda de troca
-hipotese 1 : energia é comodity que cresceu de valor no brasil em 11,6% ao ano nos últimos 10 anos.
+
+/n hipotese 1 : energia é comodity que cresceu de valor no brasil em 11,6% ao ano nos últimos 10 anos.
+
 hipotese 2: a regulamentaço no brasil (REN ANEEL 482/12 e 687/15) diz que a energia renovável pode ser autoproduzida e transformada em crédito utilizando a rede como bateria
+
 hipotese 3: modelo de locação de gerador solar pois energia de geração distribuída não pode ser vendida em R$/kWh
+
 hipótese 4: Solar permite até 20% de sobre potência e.g. 75kW com 90 kW pico de somatrio de placas
 
 até 75kW : 
