@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <h1>To Dos</h1>
+  
+  <input id='addTodoTextInput' type='text'>
+  <button onclick='handler.addTodo()'>Add todo</button>
+
+  
+  <div>
+  <input id='changeTodoPositionInput' type='number'>
+  <input id='changeTodoTextInput' type='text'>
+  <button onclick='handler.changeTodo()'>Change todo</button>
+  </div>
+  
+  <div>
+  <input id='deleteTodoPositionInput' type='number'>
+  <button onclick='handler.deleteTodo()'>Delete todo</button>
+  </div>
+  
+  <div>
+  <input id='toggleCompletedPositionInput' type='number'>
+  <button onclick='handler.toggleCompleted()'>Toggle Completed</button>
+  </div>
+  
+  <ul>
+  </ul>
+  
+  <div id="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  </div>
+  
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
