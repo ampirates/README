@@ -7,31 +7,32 @@
 </head>
 
 <body>
-  <h1>To Dos</h1>
+  <h1>Tarefas</h1>
   
   <input id='addTodoTextInput' type='text'>
-  <button onclick='handler.addTodo()'>Add todo</button>
+  <button onclick='handler.addTodo()'>Adicionar Tarefa</button>
 
   
   <div>
-  <input id='changeTodoPositionInput' type='number'>
-  <input id='changeTodoTextInput' type='text'>
-  <button onclick='handler.changeTodo()'>Change todo</button>
+  Posição da Tarefa <input id='changeTodoPositionInput' type='number'>
+  Nova Tarefa<input id='changeTodoTextInput' type='text'>
+  <button onclick='handler.changeTodo()'>Alterar Tarefa</button>
   </div>
   
   <div>
-  <input id='deleteTodoPositionInput' type='number'>
-  <button onclick='handler.deleteTodo()'>Delete todo</button>
+  Posição da Tarefa<input id='deleteTodoPositionInput' type='number'>
+  <button onclick='handler.deleteTodo()'>Deletar Tarefa</button>
   </div>
   
   <div>
-  <input id='toggleCompletedPositionInput' type='number'>
-  <button onclick='handler.toggleCompleted()'>Toggle Completed</button>
+  Posição da Tarefa<input id='toggleCompletedPositionInput' type='number'>
+  <button onclick='handler.toggleCompleted()'>Marcar como Completada</button>
   </div>
   
   <ul>
   </ul>
   
+  Slider inútil
   <div id="slidecontainer">
   <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
   </div>
