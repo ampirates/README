@@ -13,23 +13,39 @@ hipótese 4: Solar permite até 20% de sobre potência e.g. 75kW com 90 kW pico 
 
 Modelo: 
 
-Amplitude compra creditos de energia com x % de desconto
-Amplitude compra creditos de estabelecimentos *recorrentes* com y % de desconto
-Amplitude vende produtos/servicos com z % de desconto e paga com creditos de energia
+(1) Amp compra  (a) creditos de energia com                          x%  de desconto
+(2) Amp compra  (b) creditos *recorrentes* de estabelecimentos com   y%  de desconto
+(3) Amp vende   (c) produtos/servicos com                            z%  de desconto   e paga com creditos de energia
+    $monetizacao =    ∑ c/(1-z%) - ∑ b*(1-y%) - ∑ a*(1-x%) 
 
-$monetizacao = ∑ R$produto/(1-z%) - ∑ R$produto*(1-y%) - ∑ R$energia*(1-x%) 
+Exemplo:
+PF: R$10 
 
-exemplo:
+(1) AMP negocia 10% desconto com ESTABELECIMENTO R$11,10 mensais de PF's no ano por R$10,00 mensais em energia = 
+SALDO:  + R$133,20 em PF's - R$120,00 em kWh
 
-PF R$10 
+(2) AMP negocia 10% desconto com      GERADOR    R$10,00 mensais de kWhs no ano por R$ 8,10 mensais em espécie = 
+= ∆     + R$120,00 em kWh - R$108,00 em espécie (+ R$133,20 em PF's - R$120,00 em kWh)
+SALDO:  + R$133,20 em PF  - R$108,00 em espécie
 
-AMP negocia 10% desconto com ESTABELECIMENTO R$11,10 mensais de PF's no ano por R$10,00 mensais em energia = - R$133,20 por - R$120,00 
-= ∆ +R$13,20
+(3) AMP negocia 10% desconto com      USUARIO    R$11,10 mensais de PF's no ano por R$10,00 mensais em espécie = 
+= ∆     - R$133,20 em PF + R$120,00 em espécie (+ R$133,20 em PF  - R$108,00 em espécie)
+SALDO:  + R$12,00 em espécie (- custos globais)
 
-AMP negocia 10% desconto com      GERADOR    R$10,00 mensais de kWhs no ano por R$ 8,10 mensais em espécie = - R$120,00 por - R$108,00 
-= ∆ +R$12,00
+(4) ESTABELECIMENTO entra em um consórcio com AAI² que é titular das unidades consumidoras geradoras.
+    ²AAI(vulgo ei-ài) é sem fins lucrativos , ou instituto, ou fundacao? precisa ser CNPJ com *socios* que vao receber a energia.
 
-AMP negocia 10% desconto com R$11 mensais de kWhs no ano por R$10 mensais = - R$132 por - R$118,80
 
-ESTABELECIMENTO entra de socio em SPE com AAI(vulgo ei-ài) que é titular das unidades consumidoras geradoras.
-AAI é entidade sem fins lucrativos , ou instituto, ou fundacao? precisa ser CNPJ com *socios* que vao receber a energia.
+Obstáculos:
+(1) Modelo existente mas investidor necessita de contrato de longo prazo(~10 anos) para recuperação de capital investido no gerador
+(2) Produto/serviço se tornar obsoleto
+(3) Como o estabelecimento vai contabilizar a energia como moeda de troca pelo produto/serviço ofertado e operacionalizar isso
+(4) Receio do estabelecimento de entrar em uma sociedade desconhecida - [ desconheço os possíveis receios..] 
+
+
+Beneficios:
+(1) Investimento de terceiro
+(2) Fidelização
+(3) Paga energis com o próprio produto/serviço
+(4) Redução de cascata de impostos
+A princípio nada impede do estabelecimento indicar fornecedores para continuar a cascata de pagamento com energia 
